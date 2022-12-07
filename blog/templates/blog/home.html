@@ -34,7 +34,7 @@
                                     <img src="{{ post.image.url }}" alt="{{ post.title }}">
                                 </div>
                                 <div class="down-content">
-                                    <a href="post-details.html">
+                                    <a href="{{ post.get_absolute_url }}">
                                         <h4>{{ post.title }}</h4>
                                     </a>
                                     <ul class="post-info">

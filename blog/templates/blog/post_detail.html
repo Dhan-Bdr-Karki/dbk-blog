@@ -38,7 +38,6 @@
                                     <img src="{{ post.image.url }}" alt="{{ post.title }}">
                                 </div>
                                 <div class="down-content">
-                                    <span>Lifestyle</span>
                                     <a href="{{ request.build_absolute_uri }}">
                                         <h4>{{ post.title }}</h4>
                                     </a>
@@ -47,7 +46,7 @@
                                         <li><a href="#">{{ post.publish|naturalday }}</a></li>
                                         <li><a href="#">{{ post.comments.count }} comment{{ post.comments.count|pluralize }}</a></li>
                                     </ul>
-                                    <p>{{ post.body|htmlformat }}</p>
+                                    <p>{{ post.body }}</p>
                                     <div class="post-options">
                                         <div class="row">
                                             <div class="col-6">

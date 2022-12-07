@@ -99,6 +99,7 @@ def post_comment(request, post_id):
         comment = form.save(commit=False)
         comment.post = post
         comment.save()
+        return redirect(post.get_absolute_url())
     return render(request, 'blog/comment.html',{'post':post, 'form':form, 'comment':comment})
 
 
