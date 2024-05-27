@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-miiamox9j*z$%0kvk402!g@$mhyr-j@^6g8!1)u13klde7@t#q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # sitemap is an XML file that tells search engines the pages of your website, their relevance, and
 # how frequently they are updated. 
