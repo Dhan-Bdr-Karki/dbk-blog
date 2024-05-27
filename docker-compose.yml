@@ -11,6 +11,7 @@ services:
 
   blog-web:
     build: .
+    entrypoint: "./entrypoint.sh"
     command: ["./wait-for-it.sh", "db:5432", "--", "uwsgi", "--ini", "/code/config/uwsgi/uwsgi.ini"]
     restart: always
     volumes: 

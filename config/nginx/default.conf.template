@@ -20,7 +20,7 @@ server {
         alias /code/static/;
     }
 
-    location /media/ {
-        alias /code/media/;
+    location /images/ {
+        alias /code/static/images/;
     }
 }

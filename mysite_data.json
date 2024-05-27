@@ -260,6 +260,110 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-05-27T17:40:22.674Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Who is another one?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-05-27T17:44:39.365Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Artificial Intelligence (AI)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-05-27T17:45:50.535Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Vivo’s flagship X90 series launch is just a week ahead",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-05-27T17:46:34.832Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-05-27T17:47:02.745Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Data science and AI",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-05-27T17:47:29.346Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-05-27T17:49:06.434Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Who is another one?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-05-27T17:49:38.941Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -660,7 +764,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$390000$yxzt5DfIFPQKjP6IWlpjLL$cXUEQXIshlzntT7AlKqR1H1KSJ4VT3FLopgeFeTsfls=",
-    "last_login": "2022-11-16T15:03:15.397Z",
+    "last_login": "2024-05-27T17:31:26.937Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -789,6 +893,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "jjb7rl66cuqgx5oj472ufk6jg6ykmfzj",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgDA4u3fcMhGFAqoYmpV0Z765NutDtf-_9lwhxW2vYel7CxOIitDj9bhTTI7cd8D222yzT3NZlIrkr8qBdjjPn5_Vw_w5q7PVbG53JsUHFyhaHNBTwDJw5W_AR-KwVsk3oImscAIuxBhOVxASqeC_eH-xkOEU:1sBeBy:YUjefPSVzjkDWOrpRfvQDGhn5n8X9LOq1GiNlYhbSzM",
+    "expire_date": "2024-06-10T17:31:26.939Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "zr2es02saoajan7mwnqfoy8xoh8uqjck",
   "fields": {
     "session_data": ".eJxVjEEOwiAQRe_C2hCgDA4u3fcMhGFAqoYmpV0Z765NutDtf-_9lwhxW2vYel7CxOIitDj9bhTTI7cd8D222yzT3NZlIrkr8qBdjjPn5_Vw_w5q7PVbG53JsUHFyhaHNBTwDJw5W_AR-KwVsk3oImscAIuxBhOVxASqeC_eH-xkOEU:1ovJwZ:WuJ0ox4EXjCgtt3aI30sx-kWuXX5UY-_Z9JK8WgzKQc",
@@ -801,11 +913,12 @@
   "fields": {
     "title": "Vivo’s flagship X90 series launch is just a week ahead",
     "slug": "vivos-flagship-x90-series-launch-is-just-a-week-ahead",
+    "image": "bnr1_VrkPzWs.jpg",
     "author": 2,
     "body": "Vivo is all set to launch its flagship X90 series of smartphones in China. The new lineup will be introduced at an event on November 22. Prior to the launch, the company revealed some interesting details about the device. And rumors have also been circulating on the internet about what we can expect from them. So, in this article, we will go over the details of the Vivo X90 Series along with its leaks and rumors.",
     "publish": "2022-11-15T11:19:28Z",
     "created": "2022-11-15T11:20:17.346Z",
-    "updated": "2022-11-16T10:04:53.795Z",
+    "updated": "2024-05-27T17:45:50.531Z",
     "status": "PB"
   }
 },
@@ -815,11 +928,12 @@
   "fields": {
     "title": "Who was Django Reinhardt?",
     "slug": "who-was-django-reinhardt",
+    "image": "elon_musk_sF3L58d.jpg",
     "author": 1,
     "body": "bala bala",
     "publish": "2022-11-15T11:28:15Z",
     "created": "2022-11-15T11:37:23.626Z",
-    "updated": "2022-11-15T11:42:24.424Z",
+    "updated": "2024-05-27T17:49:38.938Z",
     "status": "PB"
   }
 },
@@ -829,11 +943,12 @@
   "fields": {
     "title": "Who is another one?",
     "slug": "who-is-another-one",
+    "image": "data-science_yoLNbiH.png",
     "author": 2,
     "body": "It's me bro.",
     "publish": "2022-11-15T11:49:37Z",
     "created": "2022-11-15T11:50:00.145Z",
-    "updated": "2022-11-15T12:06:20.171Z",
+    "updated": "2024-05-27T17:49:06.430Z",
     "status": "DF"
   }
 },
@@ -843,11 +958,12 @@
   "fields": {
     "title": "Artificial Intelligence (AI)",
     "slug": "artificial-intelligence-ai",
+    "image": "ai_JSwwrLt.jpg",
     "author": 2,
     "body": "Artificial intelligence leverages computers and machines to mimic the problem-solving and decision-making capabilities of the human mind. A number of definitions of artificial intelligence (AI) have surfaced over the last few decades. John McCarthy offers the following definition in this 2004 paper (PDF, 106 KB) (link resides outside IBM)): \"It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.\"",
     "publish": "2022-11-15T15:01:26Z",
     "created": "2022-11-15T15:01:55.082Z",
-    "updated": "2022-11-15T15:01:55.082Z",
+    "updated": "2024-05-27T17:44:39.360Z",
     "status": "PB"
   }
 },
@@ -857,11 +973,12 @@
   "fields": {
     "title": "Data science and AI",
     "slug": "data-science-and-ai",
+    "image": "data-science_4C8Q46d.png",
     "author": 2,
     "body": "Data Science and Artificial Intelligence are technologies that correlate with each other in many ways. Artificial Intelligence in Data Science as a function has taken over technological automation but requires Data Engineering in symphony to function properly. There are constant advancements in the fields of Data Science and Artificial Intelligence and they are said to bring the 4th revolution in the industry.",
     "publish": "2022-11-15T15:02:07Z",
     "created": "2022-11-15T15:03:02.445Z",
-    "updated": "2022-11-15T15:03:02.445Z",
+    "updated": "2024-05-27T17:47:02.739Z",
     "status": "PB"
   }
 },
@@ -871,11 +988,12 @@
   "fields": {
     "title": "Markdown Post",
     "slug": "markdown-post",
+    "image": "mai_zOXweQY.jpg",
     "author": 2,
     "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\n<h2>Here is a list:</h2>\r\n\r\n* One\r\n* Two\r\n* Three\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
     "publish": "2022-11-16T12:00:36Z",
     "created": "2022-11-16T12:01:17.703Z",
-    "updated": "2022-11-16T12:06:04.741Z",
+    "updated": "2024-05-27T17:47:29.340Z",
     "status": "PB"
   }
 },
@@ -988,6 +1106,22 @@
   }
 },
 {
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "bro",
+    "slug": "bro"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 44,
+  "fields": {
+    "name": "elon",
+    "slug": "elon"
+  }
+},
+{
   "model": "taggit.taggeditem",
   "pk": 4,
   "fields": {
@@ -1075,6 +1209,24 @@
     "tag": 10,
     "content_type": 7,
     "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 47,
+  "fields": {
+    "tag": 44,
+    "content_type": 7,
+    "object_id": 2
   }
 },
 {
