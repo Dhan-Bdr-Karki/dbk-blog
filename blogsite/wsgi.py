@@ -7,6 +7,11 @@ For more information on this file, see
 https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 """
 
+# monitoring using new relic
+import newrelic.agent 
+newrelic.agent.initialize('newrelic.ini') 
+newrelic.agent.register_application() 
+
 import os
 
 from django.core.wsgi import get_wsgi_application
@@ -14,9 +19,3 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blogsite.settings')
 
 application = get_wsgi_application()
-
-# monitoring using new relic
-import newrelic.agent
-newrelic.agent.initialize(os.path.join(os.path.dirname(__file__), "newrelic.ini"))
-
-application = newrelic.agent.WSGIApplicationWrapper(application)
