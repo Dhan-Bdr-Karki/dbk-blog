@@ -8,9 +8,9 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 """
 
 # monitoring using new relic
-import newrelic.agent 
-newrelic.agent.initialize('newrelic.ini') 
-newrelic.agent.register_application() 
+# import newrelic.agent 
+# newrelic.agent.initialize('newrelic.ini') 
+# newrelic.agent.register_application() 
 
 import os
 
