@@ -15,6 +15,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blogsite.settings')
 
 application = get_wsgi_application()
 
+# monitoring using new relic
 import newrelic.agent
 newrelic.agent.initialize(os.path.join(os.path.dirname(__file__), "newrelic.ini"))
 
