@@ -2,6 +2,7 @@
 {% load blog_tags %}
 {% load humanize %}
 {% load social_share %}
+{% load static %}
 
 {% block title %}About Us{% endblock %}
 
@@ -16,7 +17,7 @@
     
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="assets/images/about-us.jpg" alt="">
+                    <img src="{% static 'assets/images/about-us.jpg' %}" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatem iste consectetur. Modi dolorem, nostrum autem assumenda quaerat veniam voluptatibus. Pellentesque quis luctus libero. Maecenas pretium molestie
                         erat, ac tincidunt leo gravida ac. Cras ullamcorper eu ipsum eu sollicitudin. Fusce vitae commodo
                         turpis. Integer ullamcorper purus nec justo mollis fermentum. Nunc imperdiet erat nec lacinia
